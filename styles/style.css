@@ -50,9 +50,8 @@ main {
     width: 40px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 1px solid white;
 }
 
 #redes-sociais img:hover {
-    transform: translate(-5px, -5px);
+    transform: translate(-10px, -10px);
 }
