@@ -7,7 +7,7 @@ body {
     height: 100vh;
     width: 100vw;
     
-    background: black url(../imagens/fundo-madeira.jpg) top center / cover no-repeat fixed;
+    background: black url(../assets/fundo-madeira.jpg) top center / cover no-repeat fixed;
 }
 
 main {
@@ -23,7 +23,7 @@ main {
 
     height: 627px;
     width: 311px;
-    background: url(../imagens/frame-iphone.png) no-repeat;
+    background: url(../assets/frame-iphone.png) no-repeat;
 }
 
 iframe {
