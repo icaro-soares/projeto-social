@@ -44,6 +44,20 @@ main {
     margin: .5em 0;
 }
 
+.secao-texto p a {
+    text-decoration: none;
+    color: var(--azul);
+    padding: 0 10px;
+}
+
+.secao-texto p a:hover {
+    text-decoration: underline;
+}
+
+.secao-texto p a::after {
+    content: '\1F517';
+}
+
 .secao-texto div {
     display: flex;
     flex-flow: column nowrap;
