@@ -74,3 +74,10 @@ main {
     color: white;
     font: 400 18px var(--montserrat);
 }
+
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-flow: column-reverse nowrap;
+    }
+}
