@@ -4,8 +4,8 @@
     --cinza: #c0c0c0;
     --azul: #33dbd3;
     --hover: #ffffff8f;
-    --krona: 'Krona One', cursive;
-    --montserrat: 'Montserrat', cursive;
+    --krona: 'Krona One', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 
 main {
     height: 100vh;
-
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,6 +75,9 @@ main {
     font: 400 18px var(--montserrat);
 }
 
+img {
+    border-radius: .5em;
+}
 
 @media screen and (max-width: 768px) {
     main {
