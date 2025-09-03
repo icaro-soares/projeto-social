@@ -1,0 +1,23 @@
+:root {
+    --cinza: #c0c0c0;
+    --verde: #33dbd3;
+    --hover: #ffffff8f;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    color: var(--cinza);
+}
+
+main {
+    height: 100vh;
+    width: 100vh;
+
+    display: flex;
+}
