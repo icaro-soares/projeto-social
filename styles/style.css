@@ -72,7 +72,12 @@ main {
 .secao-texto div a {
     text-decoration: none;
     color: white;
-    font: 400 18px var(--montserrat);
+    font: 400 16px var(--krona);
+}
+
+.secao-texto div li:hover {
+    background-color: rgba(255, 255, 255, 0.342);
+    transition: .5s;
 }
 
 img {
