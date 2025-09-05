@@ -39,13 +39,14 @@ main {
 }
 
 .texto h1 {
-    font: bold 2.3em var(--krona);
+    margin: .5em 0;
+    font: bold 2em var(--krona);
     color: var(--azul);
 }
 
 .texto p {
-    margin: 1em 0;
-    font: normal 1em var(--montserrat);
+    margin: .5em 0;
+    font: normal .8em var(--montserrat);
     color: var(--cinza);
 }
 
@@ -56,7 +57,7 @@ main {
 }
 
 .texto div h2 {
-    margin-bottom: 1em;
+    margin: .5em 0;
     font: bold 1.3em var(--krona);
     color: white;
 }
@@ -87,5 +88,13 @@ main {
 
 img {
     display: block;
+    margin: .5em 0;
     border-radius: .5em;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
